@@ -1,0 +1,18 @@
+.user-card-text_general {
+    flex-basis: 60%;
+    font-weight: 300;
+}
+
+.user-card-info__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.user-card-info_general {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

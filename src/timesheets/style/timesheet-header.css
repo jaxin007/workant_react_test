@@ -1,0 +1,11 @@
+.timesheet-header-actions {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1em 0;
+}
+
+.timesheet-current-month {
+    padding: 0.75em 0;
+    margin: 0 1em;
+}

@@ -1,0 +1,49 @@
+td {
+    position: relative;
+    justify-content: center;
+    padding: 1em;
+    vertical-align: middle;
+    font-weight: 300;
+}
+.user-table-arrow {
+    text-align: center;
+    padding: 0.25em 0.5em;
+    text-decoration: none;
+}
+
+.user-table-arrow>a {
+    text-decoration: none;
+}
+
+.user-general-info-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+}
+
+.user-general-info-section>.image {
+    width: 4em;
+    height: 4em;
+    overflow: hidden;
+    position: relative;
+    border-radius: 50%;
+    background-repeat: no-repeat, no-repeat;
+    background-size: cover;
+    background-position: center;
+    align-self: center;
+    margin-right: 1em;
+}
+
+.user-modal {
+    width: 100%;
+    max-width: 80vw;
+}
+
+.close-button {
+    position: absolute;
+    font-size: 1.5em;
+    padding: 0 0.35em;
+    right: 0;
+    top: 0;
+}

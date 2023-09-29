@@ -1,0 +1,20 @@
+.user-card-image {
+    width: 15em;
+    height: 15em;
+    overflow: hidden;
+    position: relative;
+    border-radius: 0.5em;
+    background-repeat: no-repeat, no-repeat;
+    background-size: cover;
+    background-position: center;
+    align-self: center;
+}
+
+.user-card-image.manager-image {
+    width: 10em;
+    height: 10em;
+}
+
+.user-card-image.main-card-image {
+    margin-right: 0.5em;
+}
