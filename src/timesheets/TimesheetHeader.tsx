@@ -33,7 +33,7 @@ export const TimesheetHeader = ({
       if (direction === Direction.next) newMonth += 1;
       if (direction === Direction.prev) newMonth -= 1;
 
-      return `${getMonthYearStr(dateByMonthAndYear(+prevYear, newMonth - 1))}`;
+      return `${getMonthYearStr(dateByMonthAndYear(newMonth - 1, +prevYear))}`;
     });
   };
 

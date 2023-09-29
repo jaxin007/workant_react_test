@@ -41,11 +41,10 @@ export const getMonthYearStr = (date: Date | string): string => {
 export const getMonthNumberByName = (
   prevMonth: string | number,
   prevYear: string | number,
-) => {
-  return new Date(`${prevYear}/${prevMonth}/01`).toLocaleDateString(`en`, {
+) =>
+  new Date(`${prevMonth} 01 ${prevYear}`).toLocaleDateString(`en`, {
     month: `numeric`,
   });
-};
 
 export const dateByMonthAndYear = (month: number, year: number) =>
   new Date(new Date().setFullYear(year, month, 1));
